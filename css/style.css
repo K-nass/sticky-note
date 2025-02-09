@@ -49,10 +49,10 @@ textarea.dragging {
 }
 
 #trash-icon {
-  position: fixed;
-  bottom: 0;
-  right: 0;
+   position: fixed;
+  bottom: 50px;
+  right: 50px;
   color: yellow;
-  font-size: 60px;
+  font-size: 7rem;
   cursor: pointer;
 }
