@@ -1,0 +1,58 @@
+body {
+  background-color: purple;
+  padding: 30px;
+  margin: 30px;
+}
+
+#notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.note {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 1;
+  padding: 10px;
+  color: purple;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+textarea {
+  background-color: yellow;
+  color: black;
+  min-width: 400px;
+  max-width: 600px;
+  min-height: 300px;
+  max-height: 500px;
+  border: none;
+  outline: none;
+  border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
+  text-indent: 40px;
+  padding-top: 35px;
+  font-size: 20px;
+  cursor: move;
+}
+
+textarea.dragging {
+  display: none;
+}
+
+#trash-icon {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: yellow;
+  font-size: 60px;
+  cursor: pointer;
+}
